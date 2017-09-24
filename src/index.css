@@ -1,5 +1,79 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.kitchen {
+	background-color: yellow;
+	height: 100vh;
+	width: 100vw;
+}
+
+.toaster {
+	height: 16rem;
+	width: 24rem;
+	background-color: blue;
+}
+
+.centered {
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.toaster-side {
+
+}
+
+.toaster-top {
+
+}
+
+.toaster-bottom {
+
+}
+
+.toaster-side {
+	position: absolute;
+	height: 70%;
+	width: 5rem;	
+	margin: auto;
+	top:0;
+	bottom: 0;
+	left: 5%;
+}
+
+.trigger-btn {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  background-color: grey;
+  top: 0;
+  transition: linear 2s;
+}
+.cooking {
+	top: 85%;
+}
+
+.trigger-track {
+	height: 100%;
+	width: 2px;
+	background-color: black;
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.slot {
+	width: 70%;
+	height: 15%;
+	background-color: black;
+	margin-top: .5rem;
 }
